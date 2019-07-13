@@ -62,16 +62,16 @@
                 <fieldset>
                     <legend>array: Хобби</legend>
                     <label>
-                        <input type="checkbox" name="fishing">Рыбалка
+                        <input type="checkbox" name="animals[]" value="fishing">Рыбалка
                     </label>
                     <label>
-                        <br><input type="checkbox" name="astronomy">Астрономия
+                        <br><input type="checkbox" name="animals[]" value="astronomy">Астрономия
                     </label>
                     <label>
-                        <br><input type="checkbox" name="diving">Дайвинг
+                        <br><input type="checkbox" name="animals[]" value="diving">Дайвинг
                     </label>
                     <label>
-                        <br><input type="checkbox" name="stamps">Марки
+                        <br><input type="checkbox" name="animals[]" value="stamps">Марки
                     </label>
                 </fieldset>
                 <fieldset>
@@ -94,6 +94,7 @@
                                     <option value="9">Археоптерикс</option>
                             </optgroup>
                         </select>
+                    </label>
                 </fieldset>
             </fieldset>
             <fieldset>
@@ -121,7 +122,16 @@
                 <legend>Кнопки управления</legend>
                 <input type="submit" value="Отправить">
                 <input type="reset" value="Сбросить">
-                <br><button type="button"><img src="email.jpg"></button>
+                <br><table>
+                    <tr>
+                        <td>
+                    <button type="button"><img src="email.jpg"></button>
+                        </td>
+                        <td align="left" valign="top">
+                        <span>- при нажатии на эту кнопку ничего не происходит</span>
+                        </td>
+                    </tr>
+                </table>
             </fieldset>
         </form>
     </body>

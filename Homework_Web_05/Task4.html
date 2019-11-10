@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* Вариант 1 */
+        /*.ram {width: 80%; 
+        padding: 3em; 
+        background-color: violet;
+        background-image: url(border/L-J-r-T.png),url(border/L-J-r-T.png),url(border/L-J-r-T.png),url(border/L-J-r-T.png),url(border/v.png),url(border/v.png),url(border/G.png),url(border/G.png);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y,repeat-x,repeat-x;
+        background-position: bottom right, bottom left, top left, top right, left, right, top, bottom;} */
+        /* Вариант 2 */
+        /* .ram {  border-style:solid; border-width: 2.5em;  width:80%;
+    			border-image-source: url('border/border-image-1.png') ;
+    			border-image-slice: 100;
+    			border-image-repeat: stretch; 
+    			border-image-width: 2;} */
+        /* Вариант 3*/
+        /* .ram {background: 
+  			url('border/L-J-r-T.png') no-repeat top left,
+  			url('border/L-J-r-T.png') no-repeat top right,
+  			url('border/L-J-r-T.png') no-repeat bottom left,
+  			url('border/L-J-r-T.png') no-repeat bottom right,
+  			url('border/v.png') repeat-y left,  
+  			url('border/G.png') repeat-x top, 
+  			url('border/v.png') repeat-y right, 
+  			url('border/G.png') repeat-x bottom;
+  					width:80%; padding:2.5em} */
+    </style>
+
+</head>
+<body>
+    <!-- Вариант 4 -->
+    <div style="width:80%; background: url('img/l.png') repeat-y left">
+    <div style="background: url('img/t.png') repeat-x top">
+    <div style="background: url('img/r.png') repeat-y right">
+    <div style="background: url('img/b.png') repeat-x bottom">
+    <div style="background: url('img/l-t.png') no-repeat top left">
+    <div style="background: url('img/r-t.png') no-repeat top right">
+    <div style="background: url('img/l-b.png') no-repeat bottom left">
+    <div style="background: url('img/r-b.png') no-repeat bottom right">
+        <div class="ram">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis mollitia ducimus saepe sunt cumque voluptas, obcaecati ad non iusto similique magni dolores iure adipisci quasi necessitatibus ut maxime error. A!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, aliquam soluta. Blanditiis minus tenetur aliquam iure architecto labore deleniti voluptas quas fuga, facere dolores vitae reprehenderit repellat voluptates esse nobis.
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
